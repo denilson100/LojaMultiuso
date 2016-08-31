@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB74BA6C1C7328D40098005D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BA6B1C7328D40098005D /* main.swift */; };
+		FB74BA841C732C800098005D /* Funcionario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BA7F1C732C800098005D /* Funcionario.swift */; };
+		FB74BA851C732C800098005D /* Gerente.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BA801C732C800098005D /* Gerente.swift */; };
+		FB74BA861C732C800098005D /* Lampada.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BA811C732C800098005D /* Lampada.swift */; };
+		FB74BA871C732C800098005D /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BA821C732C800098005D /* Produto.swift */; };
+		FB74BA881C732C800098005D /* Vendedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BA831C732C800098005D /* Vendedor.swift */; };
+		FB74BA8A1C732EF80098005D /* Tomada.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BA891C732EF80098005D /* Tomada.swift */; };
+		FB74BA8C1C732F6B0098005D /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BA8B1C732F6B0098005D /* Filtro.swift */; };
+		FB74BA8E1C73311E0098005D /* Loja.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BA8D1C73311E0098005D /* Loja.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB74BA661C7328D40098005D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB74BA681C7328D40098005D /* LojaMultiuso */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LojaMultiuso; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB74BA6B1C7328D40098005D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB74BA7F1C732C800098005D /* Funcionario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Funcionario.swift; sourceTree = "<group>"; };
+		FB74BA801C732C800098005D /* Gerente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gerente.swift; sourceTree = "<group>"; };
+		FB74BA811C732C800098005D /* Lampada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lampada.swift; sourceTree = "<group>"; };
+		FB74BA821C732C800098005D /* Produto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
+		FB74BA831C732C800098005D /* Vendedor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vendedor.swift; sourceTree = "<group>"; };
+		FB74BA891C732EF80098005D /* Tomada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tomada.swift; sourceTree = "<group>"; };
+		FB74BA8B1C732F6B0098005D /* Filtro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
+		FB74BA8D1C73311E0098005D /* Loja.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loja.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB74BA651C7328D40098005D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB74BA5F1C7328D40098005D = {
+			isa = PBXGroup;
+			children = (
+				FB74BA6A1C7328D40098005D /* LojaMultiuso */,
+				FB74BA691C7328D40098005D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB74BA691C7328D40098005D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB74BA681C7328D40098005D /* LojaMultiuso */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB74BA6A1C7328D40098005D /* LojaMultiuso */ = {
+			isa = PBXGroup;
+			children = (
+				FB74BA7F1C732C800098005D /* Funcionario.swift */,
+				FB74BA801C732C800098005D /* Gerente.swift */,
+				FB74BA811C732C800098005D /* Lampada.swift */,
+				FB74BA821C732C800098005D /* Produto.swift */,
+				FB74BA831C732C800098005D /* Vendedor.swift */,
+				FB74BA6B1C7328D40098005D /* main.swift */,
+				FB74BA891C732EF80098005D /* Tomada.swift */,
+				FB74BA8B1C732F6B0098005D /* Filtro.swift */,
+				FB74BA8D1C73311E0098005D /* Loja.swift */,
+			);
+			path = LojaMultiuso;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB74BA671C7328D40098005D /* LojaMultiuso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB74BA6F1C7328D40098005D /* Build configuration list for PBXNativeTarget "LojaMultiuso" */;
+			buildPhases = (
+				FB74BA641C7328D40098005D /* Sources */,
+				FB74BA651C7328D40098005D /* Frameworks */,
+				FB74BA661C7328D40098005D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LojaMultiuso;
+			productName = LojaMultiuso;
+			productReference = FB74BA681C7328D40098005D /* LojaMultiuso */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB74BA601C7328D40098005D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Infnet;
+				TargetAttributes = {
+					FB74BA671C7328D40098005D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FB74BA631C7328D40098005D /* Build configuration list for PBXProject "LojaMultiuso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB74BA5F1C7328D40098005D;
+			productRefGroup = FB74BA691C7328D40098005D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB74BA671C7328D40098005D /* LojaMultiuso */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB74BA641C7328D40098005D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB74BA841C732C800098005D /* Funcionario.swift in Sources */,
+				FB74BA861C732C800098005D /* Lampada.swift in Sources */,
+				FB74BA881C732C800098005D /* Vendedor.swift in Sources */,
+				FB74BA6C1C7328D40098005D /* main.swift in Sources */,
+				FB74BA8E1C73311E0098005D /* Loja.swift in Sources */,
+				FB74BA8A1C732EF80098005D /* Tomada.swift in Sources */,
+				FB74BA871C732C800098005D /* Produto.swift in Sources */,
+				FB74BA851C732C800098005D /* Gerente.swift in Sources */,
+				FB74BA8C1C732F6B0098005D /* Filtro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB74BA6D1C7328D40098005D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB74BA6E1C7328D40098005D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB74BA701C7328D40098005D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB74BA711C7328D40098005D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB74BA631C7328D40098005D /* Build configuration list for PBXProject "LojaMultiuso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB74BA6D1C7328D40098005D /* Debug */,
+				FB74BA6E1C7328D40098005D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB74BA6F1C7328D40098005D /* Build configuration list for PBXNativeTarget "LojaMultiuso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB74BA701C7328D40098005D /* Debug */,
+				FB74BA711C7328D40098005D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB74BA601C7328D40098005D /* Project object */;
+}
